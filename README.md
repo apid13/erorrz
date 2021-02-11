@@ -1,7 +1,6 @@
 ### FIDSBOT 
 
 <details>
- <summary>🍙 Help me!</summary>
  
 </details>
 </div>
@@ -17,9 +16,9 @@
 ---
 
 ## Information
-- Change vcard contacts on [this section](https://github.com/4NK3R-PRODUCT1ON/bot-wea-v3/blob/main/anker.js#L102)
-- Change Options on [this file](https://github.com/4NK3R-PRODUCT1ON/bot-wea-v3/blob/main/options/option.json)
-- Change menu on [this folders](https://github.com/4NK3R-PRODUCT1ON/bot-wea-v3/tree/main/database/menu)
+- Change vcard contacts on [this section](https://github.com/apid13/erorrz/blob/main/anker.js#L102)
+- Change Options on [this file](https://github.com/apid13/erorrz/blob/main/options/option.json)
+- Change menu on [this folders](https://github.com/apid13/erorrz/tree/main/database/menu)
 
 ---
 
@@ -34,9 +33,9 @@
     "botName": "BOT_NAME",
     "ownerName": "OWNER_NAME",
     "BarBarKey": "YOUR_APIKEY",
-    "ownerNumbers": "628885xxxxxx@s.whatsapp.net",
+    "ownerNumbers": "628823xxxxxx@s.whatsapp.net",
     "languages": "ind",
-    "botPrefix": "."
+    "botPrefix": "#"
 }
 ```
 
@@ -48,7 +47,7 @@ Example:
 - Change ```ownerName``` with your Name
 Example:
 ```bash
-"ownerName": "Nazwa",
+"ownerName": "Fids",
 ```
 - Change ```BarBarKey``` with your mhankbarbar ApiKey
 Example:
