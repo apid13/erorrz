@@ -1,11 +1,7 @@
-### Moshi Moshi~ I'm ANKER
+### FIDSBOT 
 
 <details>
  <summary>🍙 Help me!</summary>
- 
- [Saweria](https://saweria.co/darkbot2412)
-
- [Gopay](https://wa.me/6281368646011)
  
 </details>
 </div>
@@ -83,8 +79,8 @@ Follow The Steps Below!
 > termux-setup-storage
 (after that tap on permission)
 > apt install git -y
-> git clone https://github.com/4NK3R-PRODUCT1ON/bot-wea-v3
-> cd bot-wea-v3
+> git clone https://github.com/apid13/erorrz
+> cd erorrz
 > bash install.sh
 ```
 
@@ -116,8 +112,8 @@ Follow The Steps Below!
 ### Install
 
 ```bash
-> git clone https://github.com/4NK3R-PRODUCT1ON/bot-wea-v3
-> cd bot-wea-v3
+> git clone https://github.com/apid13/erorrz
+> cd erorrz
 > npm install
 > npm i imgbb-uploader
 > npm i got
