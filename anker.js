@@ -101,9 +101,9 @@ const { limit } = require('./database/menu/limit')
 // Load Vcard Contact
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:√ANKER√\n' // Nama Lu
-            + 'ORG:#OwnerGanz;\n' // Nama Kontak Owner
-            + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n' // Nomer Lu cok
+            + 'FN:√FIDSBOT√\n' // Nama Lu
+            + 'ORG:#FIDS;\n' // Nama Kontak Owner
+            + 'TEL;type=CELL;type=VOICE;waid=6288223955883:+62 882-2395-5883\n' // Nomer Lu cok
             + 'END:VCARD'
 prefix = "#"
 blocked = []
@@ -394,7 +394,7 @@ async function starts() {
 					ownerB: '❰❗❱ Perintah ini hanya bisa di gunakan oleh owner bot! ❰❗❱',
 					admin: '❰❗❱ Perintah ini hanya bisa di gunakan oleh admin group! ❰❗❱',
 					Badmin: '❰❗❱Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❰❗❱',
-                                        daftarB: `｢ BELUM REGISTER ｣\nHalo kak !\nKamu belum Register nih, register dulu yuk... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Anker|16`,
+                                        daftarB: `｢ BELUM REGISTER ｣\nHalo kak !\nKamu belum Register nih, register dulu yuk... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Fids|17`,
 				}
 			}
     			const apakah = ['Ya','Pasti','Kaga Bakal','Tidak']
@@ -418,7 +418,7 @@ async function starts() {
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '6281368646011@s.whatsapp.net'
+                        const NomerOwner = '6288223955883@s.whatsapp.net'
                         const isEventon = isGroup ? event.includes(from) : false
                         const isRegister = checkRegisteredUser(sender)
                         pushname = anker.contacts[sender] != undefined ? anker.contacts[sender].vname || anker.contacts[sender].notify : undefined
@@ -644,7 +644,7 @@ async function starts() {
 			me = client.user
 			user.push(sender)
 			uptime = process.uptime()
-			teks = `⟩➢ *Nama Bot* : ${me.name}\n⟩➢ *Nomer Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Aktif Sejak* : ${kyun(uptime)}\n\n⟩➢ *Instagram* : https://www.instagram.com/anker_2412\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩NazwaS\n⟩ANKER`
+			teks = `⟩➢ *Nama Bot* : ${me.name}\n⟩➢ *Nomer Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Aktif Sejak* : ${kyun(uptime)}\n\n
 			buffer = await getBuffer(me.imgUrl)
 			anker.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 			break 
